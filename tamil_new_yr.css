@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Serif;
+}
+
+.background::before {
+  content: '';
+  background-image: url("./assest/temple4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.50;/
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 170px;
+  position: relative;
+  opacity: 0.50;
+  cursor: pointer;
+}
+
+h1:hover {
+  opacity: 1;
+  color: rgb(172, 48, 48);
+  text-shadow: 3px 6px 6px rgb(38, 38, 38);
+}
+
+#para {
+  position: relative;
+  margin-top: 60px;
+  text-align: center;
+  line-height: 33px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+#img1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 175px;
+  width: 400px;
+  margin-left: 300px;
+  opacity: 0.50;
+  cursor: pointer;
+}
+
+#img1:hover {
+  opacity: 1;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+#para2{
+  margin-top: 50px;
+  font-size:24px;
+  text-indent: 60px;
+}
+#image2{
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 500px;
+  margin-bottom: 60px;
+  box-shadow: 3px 6px 6px rgb(38, 38, 38);
+}
+#image2:hover{
+  height:290px;
+}
+#para3{
+  margin-top: 50px;
+  font-size:24px;
+  text-indent: 60px;
+}
+#img3{
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 500px;
+  margin-bottom: 60px;
+  box-shadow: 3px 6px 6px rgb(38, 38, 38);
+}
+#img3:hover{
+  height:350px;
+}
+#para4{
+  text-indent: 60px;
+  margin-top: 50px;
+  font-size:24px;
+}
+#img4{
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 500px;
+  margin-bottom: 60px;
+  box-shadow: 3px 6px 6px rgb(38, 38, 38);
+}
+#img4:hover{
+  height:300px;
+}
+hr{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
